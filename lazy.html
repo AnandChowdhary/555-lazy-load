@@ -1,0 +1,18 @@
+<style>img{margin:20px;}</style>
+<script>
+	function startLAZY(){var t=document.querySelectorAll("img[data-src]");for(j=0;j<t.length;j++)t[j].offsetTop-window.innerHeight<window.pageYOffset&&t[j].setAttribute("src",t[j].getAttribute("data-src"))}document.addEventListener("DOMContentLoaded",function(){var t=document.querySelectorAll("img[data-src]");for(i=0;i<t.length;i++)t[i].style.opacity="0",t[i].style.transition="opacity 0.5s",t[i].addEventListener("load",function(){this.style.opacity="1"});setTimeout(function(){startLAZY()},100)}),window.addEventListener("scroll",function(){startLAZY()});
+</script>
+<h1>Cyankart Lazy Load</h1>
+<img data-src="http://lorempixel.com/600/600/abstract" width="500" height="500">
+<img data-src="http://lorempixel.com/600/600/city" width="500" height="500">
+<img data-src="http://lorempixel.com/600/600/animals" width="500" height="500">
+<img data-src="http://lorempixel.com/600/600/business" width="500" height="500">
+<img data-src="http://lorempixel.com/600/600/cats" width="500" height="500">
+<img data-src="http://lorempixel.com/600/600/fashion" width="500" height="500">
+<img data-src="http://lorempixel.com/600/600/technics" width="500" height="500">
+<img data-src="http://lorempixel.com/600/600/sports" width="500" height="500">
+<img data-src="http://lorempixel.com/600/600/nightlife" width="500" height="500">
+<img data-src="http://lorempixel.com/600/600/food" width="500" height="500">
+<img data-src="http://lorempixel.com/600/600/people" width="500" height="500">
+<img data-src="http://lorempixel.com/600/600/nature" width="500" height="500">
+<img data-src="http://lorempixel.com/600/600/transport" width="500" height="500">
